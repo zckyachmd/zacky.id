@@ -1,0 +1,28 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles across multiple editors and IDEs
+
+# For more information about the options in this file, see:
+# https://editorconfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Code format for all file types
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Code format for CSS files
+[*.css]
+indent_style = tab
+indent_size = 2
+
+# Code format for JavaScript files
+[*.js]
+indent_style = tab
+indent_size = 2
+
+# Ignore .vscode directory
+[.vscode]

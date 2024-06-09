@@ -12,7 +12,7 @@
     "zacky-achmad"
   ],
   "author": "Zacky Achmad",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Personal website of Zacky Achmad",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
