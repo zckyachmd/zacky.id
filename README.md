@@ -1,25 +1,30 @@
 # Personal Website
 
-This project is a personal website designed to showcase an individual's portfolio, projects, and skills to potential clients or recruiters. Leveraging HTML, CSS with Tailwind CSS and Post CSS, and JavaScript where necessary, the site is crafted with a responsive design for various screen sizes, harnessing the advantages of Tailwind CSS in a modern approach to styling, and enhancing performance through stylesheet optimization using Post CSS.
+This project is a personal website designed to showcase an individual's portfolio, projects, and skills to potential clients or recruiters. This website was created as part of the first month's assignment in the bootcamp organized by [Bermentor Indonesia](https://github.com/bearmentor-community).
 
-Explore the Figma design mockup [here](https://www.figma.com/design/iNwDAvrafvxCMVHNHcmBnp/Zacky's-Portfolio).
+## Resources
 
-## Tech Stack
+- **Design Mockup:** Explore the design on [Figma](https://www.figma.com/design/iNwDAvrafvxCMVHNHcmBnp/Zacky's-Portfolio).
+- **Project Preview:** Preview the project on [Vercel](https://zacky-achmad.vercel.app/).
+- **Project Logbook:** Accessible through the [Logbook Zacky](https://github.com/zckyachmd/logbook-zacky).
 
-- HTML
-- CSS (Tailwind CSS and PostCSS)
+## Technologies Used
+
+- **HTML**
+- **CSS** with Tailwind CSS and Post CSS
+- **JavaScript** (where necessary)
 
 ## Features
 
-- [ ] Accessibility: Ensure your website is accessible to all users.
-- [ ] Responsive Design: Seamlessly adapts to diverse screen sizes.
+- [x] Accessibility: Ensure your website is accessible to all users.
+- [x] Responsive Design: Seamlessly adapts to diverse screen sizes.
 - [x] Navigation: Navigate through the website with ease.
 - [x] Home: Welcome your visitors with a captivating landing page.
-- [ ] About: Introduce yourself to your audience.
-- [ ] Blog: Share your thoughts and ideas with the world.
-- [ ] Projects: Showcase your projects and contributions.
+- [x] About: Introduce yourself to your audience.
+- [x] Projects: Showcase your projects and contributions.
 - [ ] Contact: Connect with your audience.
 - [x] SEO Optimized: Improve your website's visibility on search engines.
+- [x] Performance Optimized: Enhances performance through stylesheet optimization using Post CSS.
 
 ## Installation
 
@@ -53,16 +58,6 @@ npm run dev
 
 5. Open the `index.html` file in your preferred browser.
 </details>
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. For major changes, please open an issue first to discuss what you would like to change. Feel free to contribute to the project by following the steps below:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 

@@ -10,7 +10,7 @@
     content="zacky achmad, zacky, achmad, web developer, back-end developer, back-end, developer, developer indonesia, web developer indonesia, back-end developer indonesia, indonesia" />
   <meta name="author" content="Zacky Achmad">
 
-  <title>About - Zacky Achmad | Portfolio</title>
+  <title>About - Zacky Achmad</title>
 
   <!-- Favicon -->
   <link rel="icon" href="assets/img/favicon.png" type="image/png" />
@@ -19,7 +19,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 </head>
 
-<body class="bg-primary">
+<body class="flex flex-col h-screen justify-between bg-primary">
   <!-- Header -->
   <header class="bg-white fixed top-0 w-full shadow-md mb-10">
     <nav class="sticky top-0 bg-gray-800 text-primary z-50 w-full">
@@ -49,7 +49,6 @@
           class="hidden md:flex md:flex-row flex-col items-center justify-center md:space-x-1 navigation-menu pb-3 md:pb-0">
           <a href="index.html" class="py-2 px-3 block uppercase font-bold">Home</a>
           <a href="about.html" class="py-2 px-3 block uppercase font-bold">About</a>
-          <a href="blog.html" class="py-2 px-3 block uppercase font-bold">Blog</a>
           <a href="portfolio.html" class="py-2 px-3 block uppercase font-bold">Portfolio</a>
           <a href="contact.html" class="py-2 px-3 block uppercase font-bold">Contact</a>
         </div>
@@ -90,96 +89,214 @@
   </header>
 
   <!-- Main Content -->
-  <main class="flex items-center justify-center mt-28">
+  <main class="flex items-center justify-center mt-28 mb-auto">
     <div class="container mx-8">
-      <!-- Title `About Me` -->
-      <div class="text-center">
-        <h1 class="bg-white text-primary border border-primary font-bold text-center inline-block w-auto py-1 px-4">
-          About Me
-        </h1>
-        <h2 class="text-3xl text-white font-extrabold tracking-wide mt-2">
-          Know Me Better
-        </h2>
-      </div>
-
-      <!-- Content `About Me` -->
-      <div class="flex flex-col md:flex-row space-y-10 md:space-y-0 mt-12">
-        <!-- About -->
-        <div class="flex-none md:flex-1">
-          <h3 class="text-2xl text-white font-thin">
-            Hi, I'm <span class="font-bold">Zacky Achmad</span>
-          </h3>
-          <p class="text-white font-light mt-2 text-justify leading-relaxed">
-            As an adaptable PHP Developer, my journey goes beyond the confines of PHP, as I continually evolve with
-            the dynamic landscape of back-end technologies. With a keen eye on industry trends, I seamlessly integrate
-            emerging technologies into my skill set, ensuring a forward-thinking approach to web development. My
-            commitment
-            to staying at the forefront of the ever-changing tech ecosystem extends beyond mere languages; it's about
-            embracing a holistic understanding of the evolving back-end landscape. Let's connect and explore the
-            exciting
-            possibilities that arise from this ever-evolving technological journey.
-          </p>
-          <div class="mt-10 flex flex-col md:flex-row justify-between">
-            <p class="space-y-6 md:w-1/3 mb-4">
-              <span class="font-light text-white block">Email:</span>
-              <a href="mailto:hi@zacky.id" target="_blank" class="font-bold text-white underline">
-                hi@zacky.id
-              </a>
-            </p>
-            <p class="space-y-6 md:w-1/3 mb-4">
-              <span class="font-light text-white block">Date of birth:</span>
-              <a href="#" class="font-bold text-white">
-                9 Januari, 2000
-              </a>
-            </p>
-            <p class="space-y-6 md:w-1/3 mb-4">
-              <span class="font-light text-white block">From:</span>
-              <span href="#" class="font-bold text-white">
-                Cimahi, Indonesia
-              </span>
-            </p>
-          </div>
-
+      <section id="about">
+        <!-- Title `About Me` -->
+        <div class="text-center">
+          <h1 class="bg-white text-primary border border-primary font-bold text-center inline-block w-auto py-1 px-4">
+            About Me
+          </h1>
+          <h2 class="text-3xl text-white font-extrabold tracking-wide mt-2">
+            Know Me Better
+          </h2>
         </div>
 
-        <!-- Experience -->
-        <div class="flex justify-center items-center flex-none md:flex-1 mt-12">
-          <div class="space-y-10">
-            <!-- Years experience -->
-            <div>
-              <h1 class="text-white text-center text-8xl flex items-center justify-center">
-                <span class="bg-secondary rounded-full w-16 h-16 flex items-center justify-center">
-                  2
+        <!-- Content `About Me` -->
+        <div class="flex flex-col md:flex-row space-y-10 md:space-y-0 mt-8">
+          <!-- About -->
+          <div class="flex-none md:flex-1">
+            <h3 class="text-2xl text-white font-thin">
+              Hi, I'm <span class="font-bold">Zacky Achmad</span>
+            </h3>
+            <p class="text-white font-light mt-2 text-justify leading-relaxed">
+              As an adaptable PHP Developer, my journey goes beyond the confines of PHP, as I continually evolve with
+              the dynamic landscape of back-end technologies. With a keen eye on industry trends, I seamlessly integrate
+              emerging technologies into my skill set, ensuring a forward-thinking approach to web development. My
+              commitment
+              to staying at the forefront of the ever-changing tech ecosystem extends beyond mere languages; it's about
+              embracing a holistic understanding of the evolving back-end landscape. Let's connect and explore the
+              exciting
+              possibilities that arise from this ever-evolving technological journey.
+            </p>
+            <div class="mt-10 flex flex-col md:flex-row justify-between">
+              <p class="space-y-6 md:w-1/3 mb-4">
+                <span class="font-light text-white block">Email:</span>
+                <a href="mailto:hi@zacky.id" target="_blank" class="font-bold text-white underline">
+                  hi@zacky.id
+                </a>
+              </p>
+              <p class="space-y-6 md:w-1/3 mb-4">
+                <span class="font-light text-white block">Date of birth:</span>
+                <a href="#" class="font-bold text-white">
+                  9 Januari, 2000
+                </a>
+              </p>
+              <p class="space-y-6 md:w-1/3 mb-4">
+                <span class="font-light text-white block">From:</span>
+                <span href="#" class="font-bold text-white">
+                  Cimahi, Indonesia
                 </span>
-              </h1>
-              <p class="text-center font-thin text-white text-3xl mt-4">
-                Years of <span class="font-bold">Experience</span>
               </p>
             </div>
 
-            <!-- Button `Download CV` -->
-            <div class="flex justify-center items-center">
-              <a href="CV_Bagaskara-Achmad-Zaky_Web-Dev.pdf" target="_blank"
-                download="CV_Bagaskara-Achmad-Zaky_Web-Dev.pdf"
-                class="bg-white text-primary border border-primary py-2 px-10 text-sm font-bold text-center w-full md:w-auto">
-                Download CV
-              </a>
+          </div>
+
+          <!-- Experience -->
+          <div class="flex justify-center items-center flex-none md:flex-1 mt-12">
+            <div class="space-y-10">
+              <!-- Years experience -->
+              <div>
+                <h1 class="text-white text-center text-8xl flex items-center justify-center">
+                  <span class="bg-secondary rounded-full w-16 h-16 flex items-center justify-center">
+                    2
+                  </span>
+                </h1>
+                <p class="text-center font-thin text-white text-3xl mt-4">
+                  Years of <span class="font-bold">Experience</span>
+                </p>
+              </div>
+
+              <!-- Button `Download CV` -->
+              <div class="flex justify-center items-center">
+                <a href="CV_Bagaskara-Achmad-Zaky_Web-Dev.pdf" target="_blank"
+                  download="CV_Bagaskara-Achmad-Zaky_Web-Dev.pdf"
+                  class="bg-white text-primary border border-primary py-2 px-10 text-sm font-bold text-center w-full md:w-auto">
+                  Download CV
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Title `Resume` -->
-      <div class="text-center mt-20">
-        <h1 class="bg-white text-primary border border-primary font-bold text-center inline-block w-auto py-1 px-4">
-          Resume
-        </h1>
-        <h2 class="text-3xl text-white font-extrabold tracking-wide mt-2">
-          A summary of My Resume
-        </h2>
-      </div>
+      <section id="resume" class="my-20">
+        <!-- Title `Resume` -->
+        <div class="text-center">
+          <h1 class="bg-white text-primary border border-primary font-bold text-center inline-block w-auto py-1 px-4">
+            Resume
+          </h1>
+          <h2 class="text-3xl text-white font-extrabold tracking-wide mt-2">
+            A summary of My Resume
+          </h2>
+        </div>
+
+        <!-- Content `Resume` -->
+        <div class="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 mt-8">
+          <div class="flex-none md:flex-1">
+            <h3 class="text-2xl text-white font-bold">
+              My Education
+            </h3>
+            <div class="relative mt-6">
+              <div class="absolute left-0 top-0 h-full border-l-4 border-white"></div>
+              <div class="pl-6">
+                <div class="mb-6">
+                  <h1 class="text-white text-xl font-bold">
+                    Bachelor of Applied Science
+                  </h1>
+                  <p class="text-white text-sm font-thin mt-2">
+                    Telkom University / Aug 2018 - Sep 2022
+                  </p>
+                  <p class="text-white font-light mt-2 text-justify leading-relaxed">
+                    Graduated with a GPA of 3.82 in Multimedia Engineering Technology. During my studies, I gained
+                    extensive knowledge and
+                    hands-on experience in multimedia systems, software development, and digital content creation. My
+                    coursework included
+                    advanced programming, multimedia project management, and interactive media design, preparing me for
+                    a dynamic career
+                    in technology and multimedia industries.
+                  </p>
+                  <hr class="my-10" />
+                </div>
+                <div>
+                  <h1 class="text-white text-xl font-bold mt-4">
+                    Vocational High School
+                  </h1>
+                  <p class="text-white text-sm font-thin mt-2">
+                    SMK Pertanian Pembangunan Negeri Lembang / Jul 2015 - Jul 2018
+                  </p>
+                  <p class="text-white font-light mt-2 text-justify leading-relaxed">
+                    Completed a Vocational High School program with a major in Agribusiness of Food Crops and
+                    Horticulture. This
+                    specialization focused on modern agricultural techniques, including Hydroponics, providing a
+                    comprehensive
+                    understanding of sustainable agriculture and innovative cultivation practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-none md:flex-1">
+            <h3 class="text-2xl text-white font-bold">
+              My Experience
+            </h3>
+            <div class="relative mt-6">
+              <div class="absolute left-0 top-0 h-full border-l-4 border-white"></div>
+              <div class="pl-6">
+                <div class="mb-6">
+                  <h1 class="text-white text-xl font-bold">
+                    Back-End Web Developer
+                  </h1>
+                  <p class="text-white text-sm font-thin mt-2">
+                    PT. AGIT / Apr 2023 - Present
+                  </p>
+                  <ul class="list-disc list-inside text-white pl-5 mt-4">
+                    <li class="font-light leading-relaxed">
+                      Administer the Grafana-based website for data visualization and reporting at SSOE.
+                    </li>
+                    <li class="font-light leading-relaxed">
+                      Automate data retrieval and integration with PHP, optimizing processes for efficient data
+                      management.
+                    </li>
+                    <li class="font-light leading-relaxed">
+                      Oversee server operations, ensuring smooth execution of scheduled tasks for efficient data
+                      processing.
+                    </li>
+                  </ul>
+                  <hr class="my-10" />
+                </div>
+                <div class="mb-6">
+                  <h1 class="text-white text-xl font-bold">
+                    Full-Stack Web Developer
+                  </h1>
+                  <p class="text-white text-sm font-thin mt-2">
+                    Telkom University / Jun 2022 - Apr 2023
+                  </p>
+                  <ul class="list-disc list-inside text-white pl-5 mt-4">
+                    <li class="font-light leading-relaxed">
+                      Involved in the entire development lifecycle of web applications as a Full-Stack Web Developer.
+                    </li>
+                    <li class="font-light leading-relaxed">
+                      Responsible for designing and implementing user-friendly interfaces and database structures.
+                    </li>
+                    <li class="font-light leading-relaxed">
+                      Conducted thorough testing and debugging to ensure high-quality and error-free code.
+                    </li>
+                    <li class="font-light leading-relaxed">
+                      Collaborated with cross-functional teams to gather requirements and deliver scalable solutions.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
+
+  <!-- Footer -->
+  <footer class="bg-secondary text-white py-4 px-4 text-center w-full bottom-0 fixed-buttom">
+    <div class="container mx-auto flex justify-between">
+      <div>
+        <p>Copyright &copy; 2024 <a href="#" class="underline">Zacky Achmad</a>. All rights reserved.</p>
+      </div>
+      <div>
+        <p>Handcraft on Earth with Love</p>
+      </div>
+    </div>
+  </footer>
 
   <!-- Script -->
   <script src="assets/js/main.js"></script>
