@@ -1,6 +1,13 @@
 # Personal Website
 
-This project is a personal website designed to showcase an individual's portfolio, projects, and skills to potential clients or recruiters. This website was created as part of the first month's assignment in the bootcamp organized by [Bermentor Indonesia](https://github.com/bearmentor-community).
+This project is a personal website designed to showcase an individual's portfolio, projects, and skills to potential clients or recruiters. This website was created as part of the first month's assignment in the bootcamp organized by [Bearmentor Indonesia](https://github.com/bearmentor-community).
+
+<details>
+  <summary>
+  Preview
+  </summary>
+  <img src="assets/img/preview.png" alt="Preview" style="max-width: 100%; height: auto;"/>
+</details>
 
 ## Resources
 
@@ -22,7 +29,7 @@ This project is a personal website designed to showcase an individual's portfoli
 - [x] Home: Welcome your visitors with a captivating landing page.
 - [x] About: Introduce yourself to your audience.
 - [x] Projects: Showcase your projects and contributions.
-- [ ] Contact: Connect with your audience.
+- [x] Contact: Connect with your audience.
 - [x] SEO Optimized: Improve your website's visibility on search engines.
 - [x] Performance Optimized: Enhances performance through stylesheet optimization using Post CSS.
 
@@ -32,6 +39,9 @@ To get a local copy up and running, follow these steps:
 
 <details>
 <summary>Expand for instructions</summary>
+
+### Step
+
 1. Clone the repository.
 
 ```bash

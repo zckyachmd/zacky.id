@@ -3,167 +3,37 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Portfolio - Zacky Achmad is a Back-End Web Developer from Cimahi, Indonesia | Email : contact@zacky.id" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description"
+    content="Zacky Achmad - The Coding Nerd. Exploring the world of coding, one line at a time! Software Engineer based in Cimahi, Indonesia | Let's connect: hi@zacky.id" />
   <meta name="keywords"
-    content="zacky achmad, zacky, achmad, web developer, back-end developer, back-end, developer, developer indonesia, web developer indonesia, back-end developer indonesia, indonesia" />
+    content="Zacky Achmad, Coding Nerd, Programmer, Software Engineer, Software Development, Web Developer, Back-End Developer, Developer Indonesia" />
   <meta name="author" content="Zacky Achmad">
+  <meta name="robots" content="index, follow">
 
-  <title>Zacky Achmad</title>
+  <title>Zacky Achmad / The Coding Nerd</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Zacky - The Coding Nerd" />
+  <meta property="og:description"
+    content="Zacky Achmad - The Coding Nerd. Exploring the world of coding, one line at a time! Software Engineer based in Cimahi, Indonesia | Let's connect: hi@zacky.id" />
+  <meta property="og:image" content="/assets/img/thumbnail.webp" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Zacky - The Coding Nerd" />
+  <meta property="twitter:description"
+    content="Zacky Achmad - The Coding Nerd. Exploring the world of coding, one line at a time! Software Engineer based in Cimahi, Indonesia | Let's connect: hi@zacky.id" />
+  <meta property="twitter:image" content="/assets/img/thumbnail.webp" />
 
   <!-- Styles -->
   <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-
-  <style>
-    :root {
-      --primary-color: #323F5C;
-      --secondary-color: #1E2536;
-      --white-color: #fff;
-      --font-family: 'Poppins', sans-serif;
-      --max-width: 1200px;
-      --gap: 10px;
-      --border-width: 8px;
-      --padding: 20px;
-      --font-large: 24px;
-      --font-title: 90px;
-      --font-small: 16px;
-      --line-height: 1.2;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body,
-    html {
-      font-family: var(--font-family);
-    }
-
-    .main-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      background: var(--primary-color);
-    }
-
-    .content-wrapper {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      width: 100%;
-      max-width: var(--max-width);
-      gap: var(--gap);
-      padding: var(--padding);
-    }
-
-    .profile-image {
-      grid-column: 2 / span 6;
-      width: 100%;
-      max-width: 450px;
-      height: 450px;
-      border-radius: 50%;
-      border: var(--border-width) solid var(--white-color);
-      object-fit: cover;
-      align-self: center;
-    }
-
-    .text-container {
-      grid-column: 8 / span 4;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      color: var(--secondary-color);
-    }
-
-    .text-large,
-    .title-large,
-    .text-small {
-      color: var(--white-color);
-      margin: 0;
-      text-align: left;
-      line-height: var(--line-height);
-    }
-
-    .text-large {
-      font-size: var(--font-large);
-      font-weight: lighter;
-    }
-
-    .title-large {
-      font-size: var(--font-title);
-      font-weight: bold;
-    }
-
-    .text-small {
-      font-size: var(--font-small);
-      font-weight: lighter;
-    }
-
-    .button-link {
-      background-color: var(--white-color);
-      color: #000;
-      padding: 12px 24px;
-      text-decoration: none;
-      margin-top: 30px;
-      font-size: var(--font-small);
-      line-height: 24px;
-      text-align: center;
-    }
-
-    .contact-link {
-      display: none;
-    }
-
-    @media (max-width: 768px) {
-      .content-wrapper {
-        margin-top: 50px;
-        grid-template-columns: repeat(4, 1fr);
-      }
-
-      .profile-image {
-        grid-column: 1 / span 4;
-        max-width: 300px;
-        height: 300px;
-        margin: 0 auto;
-      }
-
-      .text-container {
-        margin-top: 50px;
-        grid-column: 1 / span 4;
-        padding-left: 0;
-        text-align: center;
-      }
-
-      .text-large {
-        font-size: 20px;
-      }
-
-      .title-large {
-        font-size: 60px;
-      }
-
-      .text-large,
-      .title-large,
-      .text-small {
-        text-align: center;
-      }
-
-      .contact-link {
-        display: block;
-        color: var(--secondary-color);
-        text-decoration: underline;
-        padding-top: 10px;
-        font-size: var(--font-small);
-        align-self: center;
-      }
-    }
-  </style>
 </head>
 
 <body class="bg-primary">
@@ -203,9 +73,11 @@
         <!-- Social Media Icons -->
         <div class="hidden lg:flex items-center space-x-3">
           <!-- Instagram -->
-          <a href="https://instagram.com/zckyachmd" target="_blank" class="text-primary hover:text-gray-400">
+          <a href="https://instagram.com/zckyachmd" target="_blank" class="text-primary hover:text-gray-400"
+            title="Instagram: @zckyachmd" aria-label="Instagram: @zckyachmd">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-              class="w-6 h-6 transition duration-300 ease-in-out" viewBox="0 0 24 24">
+              class="w-6 h-6 transition duration-300 ease-in-out" viewBox="0 0 24 24" role="img">
+              <title id="instagram-icon-title">Instagram</title>
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" />
               <path
@@ -216,16 +88,22 @@
           </a>
 
           <!-- Github -->
-          <a href="https://github.com/zckyachmd" target="_blank" class="text-primary hover:text-gray-400">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
+          <a href="https://github.com/zckyachmd" target="_blank" class="text-primary hover:text-gray-400"
+            title="Github: @zckyachmd" aria-label="Github: @zckyachmd">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24" role="img"
+              aria-labelledby="github-icon-title">
+              <title id="github-icon-title">Github</title>
               <path
                 d="M12 0C5.37 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.387.6.11.82-.262.82-.582 0-.287-.01-1.046-.015-2.053-3.338.726-4.042-1.612-4.042-1.612-.546-1.388-1.333-1.758-1.333-1.758-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.998.108-.775.418-1.305.762-1.606-2.665-.303-5.466-1.333-5.466-5.932 0-1.31.468-2.382 1.235-3.222-.124-.303-.536-1.527.117-3.18 0 0 1.007-.322 3.3 1.23.96-.267 1.987-.4 3.008-.404 1.02.004 2.047.137 3.01.404 2.29-1.552 3.295-1.23 3.295-1.23.655 1.653.243 2.877.12 3.18.77.84 1.235 1.912 1.235 3.222 0 4.61-2.805 5.625-5.475 5.92.43.37.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293 0 .323.216.697.825.579C20.565 21.795 24 17.297 24 12c0-6.627-5.373-12-12-12z" />
             </svg>
           </a>
 
           <!-- LinkedIn -->
-          <a href="https://www.linkedin.com/in/zckyachmd/" target="_blank" class="text-primary hover:text-gray-400">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
+          <a href="https://www.linkedin.com/in/zckyachmd/" target="_blank" class="text-primary hover:text-gray-400"
+            title="LinkedIn: @zckyachmd" aria-label="LinkedIn: @zckyachmd">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24" role="img"
+              aria-labelledby="linkedin-icon-title">
+              <title id="linkedin-icon-title">LinkedIn</title>
               <path
                 d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.272c-.966 0-1.75-.78-1.75-1.728s.784-1.728 1.75-1.728 1.75.78 1.75 1.728-.784 1.728-1.75 1.728zm13.5 12.272h-3v-5.5c0-3.034-3-2.775-3 0v5.5h-3v-11h3v1.505c1.396-2.586 7-2.777 7 2.476v7.019z" />
             </svg>
@@ -236,15 +114,37 @@
   </header>
 
   <!-- Main Content -->
-  <main class="main-container">
-    <div class="content-wrapper">
-      <img src="assets/img/profile.jpg" alt="Zacky Achmad" title="Zacky Achmad" class="profile-image">
-      <div class="text-container">
-        <p class="text-large">Hi, I'm a Freelancer</p>
-        <h1 class="title-large">Web Dev</h1>
-        <p class="text-small">based in Cimahi, Indonesia.</p>
-        <a href="portfolio.html" class="button-link">View My Works</a>
-        <a href="contact.html" class="contact-link">Contact Me</a>
+  <main class="flex items-center justify-center h-screen">
+    <div class="container">
+      <div class="flex flex-col md:flex-row space-y-10 md:space-y-0">
+        <div class="flex justify-center items-center order-first flex-none md:flex-1">
+          <img src="assets/img/profile.webp" loading="lazy" alt="Zacky Achmad" title="Zacky Achmad"
+            class="rounded-full w-52 h-52 md:w-96 md:h-96 border-8 border-white object-cover object-center" />
+        </div>
+
+        <div
+          class="flex flex-col justify-center items-center md:items-start px-4 space-y-9 md:space-y-6 flex-none md:flex-1">
+          <div class="space-y-2">
+            <p class="text-2xl md:text-4xl text-gray-200 uppercase text-center md:text-left lg:tracking-widest">
+              Hi, I'm a Freelancer
+            </p>
+            <h1 class="text-4xl md:text-8xl font-bold text-white uppercase text-center md:text-left">
+              Web Dev
+            </h1>
+            <p class="text-lg md:text-xl text-white text-center md:text-left">
+              based in Cimahi, Indonesia.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row justify-center md:justify-start items-center md:mt-10 gap-4 md:gap-8 w-full md:w-auto text-sm md:text-base">
+            <a href="portfolio.html"
+              class="bg-white text-primary border border-primary py-4 px-10 font-bold text-center w-full md:w-auto">
+              View My Works
+            </a>
+            <a href="contact.html" class="text-white underline">Contact Me</a>
+          </div>
+        </div>
       </div>
     </div>
   </main>
