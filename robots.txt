@@ -1,0 +1,15 @@
+# Allow all user agents to crawl everything except specified directories
+User-agent: *
+Disallow: /node_modules/
+Disallow: /assets/
+Disallow: /src/
+Disallow: /postcss.config.js
+Disallow: /tailwind.config.js
+Disallow: /pnpm-lock.yaml
+Disallow: /package.json
+Disallow: /LICENSE.md
+Disallow: /README.md
+
+# Allow Twitter bots to crawl image assets
+User-agent: Twitterbot
+Allow: /assets/img/
